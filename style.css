@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a6c1ee);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+   
+}
+
+.day {
+
+    color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;           
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.monday {
+  
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid violet;
+}
+
+.tuesday {
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid violet;
+}
+
+.wednesday {
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid violet;
+}
+
+.thursday {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid violet;
+}
+
+.friday {
+    background: linear-gradient(to right, #f953c6, #b91d73);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid violet;
+}
+
+.exercise-list {
+    display: none;
+    list-style-type: disc;
+    margin: 10px 0 30px;
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+
