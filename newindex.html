@@ -5,7 +5,7 @@
   <title>GYM ROUTINE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="newstyle.css">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&family=Manrope:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <script src="script.js"></script>
@@ -32,21 +32,38 @@
 <section id="Days" class="section">
   <h1>Days</h1>
 
-    <div class="card" onclick="toggle(this)">
+
+    <div class="daycard" onclick="toggle(this)">
       <h2>MONDAY - Shoulders</h2>
+
+      <i class="ti ti-chevron-down chevron" aria-hidden="true"></i>
+      <div class="exercises">
+        <a class="exercise-link" href="https://www.youtube.com/results?search_query=shoulder+press" target="_blank">
+            <i class="ti ti-external-link" aria-hidden="true"></i> Shoulder Press
+            <span class="tag mon-tag">3–4 sets</span>
+        </a>
+        <a class="exercise-link" href="https://www.youtube.com/results?search_query=lateral+raises+for+shoulders" target="_blank">
+            <i class="ti ti-external-link" aria-hidden="true"></i> Lateral Raises
+            <span class="tag mon-tag">3–4 sets</span>
+        </a>
+        <a class="exercise-link" href="https://www.youtube.com/results?search_query=front+raises+for+shoulders" target="_blank">
+            <i class="ti ti-external-link" aria-hidden="true"></i> Front Raises
+            <span class="tag mon-tag">3 sets</span>
+        </a>
+    </div>
     </div>
 
     
-    <div class="card" onclick="toggle(this)">
+    <div class="daycard" onclick="toggle(this)">
       <h2>TUESDAY - Biceps & Triceps</h2>
     </div>
-    <div class="card" onclick="toggle(this)">
+    <div class="daycard" onclick="toggle(this)">
       <h2>WEDNESDAY - Chest </h2>
     </div>
-    <div class="card" onclick="toggle(this)">
+    <div class="daycard" onclick="toggle(this)">
       <h2>THURSDAY - Legs </h2>
     </div>
-    <div class="card" onclick="toggle(this)">
+    <div class="daycard" onclick="toggle(this)">
       <h2>FRIDAY - Back</h2>
     </div>
 </section>
