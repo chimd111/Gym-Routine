@@ -178,7 +178,7 @@ body {
 }
 
 /* glow edge */
-.daycard::before {
+/* .daycard::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -186,7 +186,7 @@ body {
   background: linear-gradient(120deg, transparent, rgba(142,255,113,0.2), transparent);
   opacity: 0;
   transition: 0.4s;
-}
+} */
 
 .daycard:hover::before {
   opacity: 1;
@@ -278,6 +278,11 @@ footer {
   color: var(--primary);
 }
 
+
+.daycard:active {
+  transform: translateY(0) scale(1);
+  transition: 0.1s;
+}
 .tag {
   display: inline-flex;
   align-items: center;
