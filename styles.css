@@ -2,7 +2,7 @@
   --bg: #0e0e0e;
   --surface: #1a1a1a;
   --surface-soft: #131313;
-  --primary: #8eff71;
+  --primary: #7b7bec;
   --secondary: #00e3fd;
   --accent: #ff51fa;
   --text: #ffffff;
@@ -63,7 +63,7 @@ body {
   font-weight: 900;
   font-family: 'Space Grotesk';
   letter-spacing: -1px;
-  text-shadow: 0 0 12px rgba(142,255,113,0.6);
+  text-shadow: 0 0 12px rgba(100, 103, 231, 0.8);
 }
 
 /* HERO */
@@ -100,7 +100,7 @@ body {
 
 .hero span {
   color: var(--primary);
-  text-shadow: 0 0 20px rgba(142,255,113,0.8);
+  text-shadow: 0 0 20px rgba(100, 103, 231, 0.8);
 }
 
 .hero p {
@@ -177,16 +177,6 @@ body {
   overflow: hidden;
 }
 
-/* glow edge */
-/* .daycard::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 12px;
-  background: linear-gradient(120deg, transparent, rgba(142,255,113,0.2), transparent);
-  opacity: 0;
-  transition: 0.4s;
-} */
 
 .daycard:hover::before {
   opacity: 1;
