@@ -150,12 +150,13 @@ body {
 .section {
   padding: 120px 40px;
   max-width: 1200px;
+  font-size: 48px;
   margin: auto;
 }
 
-.section h2 {
+.section h2{
   font-family: 'Space Grotesk';
-  font-size: 42px;
+  font-size: 40px;
   margin-bottom: 40px;
 }
 
