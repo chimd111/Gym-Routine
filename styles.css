@@ -2,7 +2,7 @@
   --bg: #0e0e0e;
   --surface: #1a1a1a;
   --surface-soft: #131313;
-  --primary: #7b7bec;
+  --primary: #48e7e7;
   --secondary: #00e3fd;
   --accent: #ff51fa;
   --text: #ffffff;
@@ -82,7 +82,7 @@ body {
   position: absolute;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(142,255,113,0.2), transparent 70%);
+  background: radial-gradient(circle, rgba(117, 110, 218, 0.2), transparent 70%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -126,12 +126,12 @@ body {
 .hero-buttons button {
   background: var(--primary);
   color: black;
-  box-shadow: 0 0 20px rgba(142,255,113,0.5);
+  box-shadow: 0 0 20px rgba(81, 128, 189, 0.5);
 }
 
 .hero-buttons button:hover {
   transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 0 30px rgba(142,255,113,0.9);
+  box-shadow: 0 0 30px rgba(145, 165, 231, 0.9);
 }
 
 /* SECONDARY */
@@ -185,26 +185,10 @@ body {
 
 .daycard:hover {
   transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 0 30px rgba(142,255,113,0.15);
+  box-shadow: 0 0 30px rgba(43, 219, 250, 0.15);
 }
 
-/* VIDEO */
-.dark {
-  background: #080808;
-}
 
-.video-container {
-  max-width: 900px;
-  margin: auto;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 0 40px rgba(0,0,0,0.8);
-}
-
-video {
-  width: 100%;
-  display: block;
-}
 
 /* POSTMORTEM COLORS */
 .daycard:nth-child(1) { border-left: 4px solid var(--primary); }
