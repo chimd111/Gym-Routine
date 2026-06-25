@@ -1,4 +1,4 @@
-const elements = document.querySelectorAll('.card, .section h2');
+const elements = document.querySelectorAll('.daycard, .section h1');
 
 window.addEventListener('scroll', () => {
   elements.forEach(el => {
@@ -13,7 +13,6 @@ function toggle(card) {
   const exercises = card.querySelector('.exercises');
   const chevron = card.querySelector('.chevron');
   const isOpen = exercises.classList.contains('open');
-
   exercises.classList.toggle('open', !isOpen);
   chevron.classList.toggle('open', !isOpen);
 }
